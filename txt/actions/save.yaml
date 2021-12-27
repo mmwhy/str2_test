@@ -1,0 +1,11 @@
+---
+name: save
+runner_type: python-script
+description: Save the results to TXT.
+enabled: true
+entry_point: save.py
+parameters:
+  greeting:
+    type: string
+    description: result data.
+    required: true
